@@ -1,0 +1,183 @@
+/* 
+
+CSS Document 
+Author: Kunaal Jain
+© Copyrights Reserved
+
+*/
+div {
+	display: block;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+.htmlbody {
+	background-color: #E7BE83;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.header.main {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	width: 100%;
+	align: center;
+	vertical-align: middle;
+	display: block;
+	font-size: large;
+	height: auto;
+	padding-top: 20px;
+}
+#container {
+	vertical-align: middle;
+}
+.header .nav.bar {
+	list-style-type: none;
+	display: block;
+	color: #FFF;
+}
+
+.header .nav.bar a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.header .nav.bar a:visited {
+	text-decoration: none;
+	color: #FFF;}
+
+.header .nav.bar a:hover {
+	text-decoration: none;
+	color: #FFF;}
+
+.header .nav.bar a:active {
+	text-decoration: none;
+	color: #FFF;}
+
+.header .nav.bar .youarehere a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+.header .nav.bar .youarehere a:visited {
+text-decoration: none;
+	color: #000;}
+
+.header .nav.bar .youarehere a:hover {
+text-decoration: none;
+	color: #000;}
+
+.header .nav.bar .youarehere a:active {
+text-decoration: none;
+	color: #000;}
+
+.header .nav.bar ul .youarehere {
+	background-color: #ff9900;
+}
+.header .nav.bar li {
+	display: block;
+	margin-top: auto;
+	margin-right: 20px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+	clear: none;
+	background-color: #777777;
+}
+.header .nav.bar li:hover {
+	display: block;
+	margin-top: auto;
+	margin-right: 20px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+	clear: none;
+	background-color: #ff9900;
+	height:30px;
+}
+.headerwrapper {
+	background-color: #BDDD71;
+}
+.header {
+	background-color: #AFD25C;
+	height: 146px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.header .nav.bar ul #leadnavbar {
+	margin-left: 20px;
+}
+.header .header.logo {
+	height: 146px;
+	width: 111px;
+	float: left;
+}
+.content {
+	width: 784px;
+	display: block;
+}
+.rightbar {
+	display: block;
+}
+.body {
+	text-align: left;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inherit;
+	background-color: #C39C64;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 1.46em;
+	/* [disabled]z-index: 25; */
+	height: auto;
+	min-height: 1000px;
+}
+.bodywrapper {
+	background-color: #DFAB62;
+}
+.imageright {
+	clear: right;
+	float: right;
+	padding-left: 5px;
+}
+
+.imageleft {
+	clear: left;
+	float: left;
+	padding-right: 5px;
+}
+
+.imagethumb {
+	border: 1px solid;
+	padding: 3px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #616DAB;
+	border-color: #4E5B98;
+}
+.body .mainheading {
+	color: #333333;
+	font-family: "Copperplate / Copperplate Gothic Light", "sans-serif;";
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.subheading {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+}
+.imagecaption {
+	font-family: "Courier New", Courier, monospace;
+}

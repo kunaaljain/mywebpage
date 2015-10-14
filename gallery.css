@@ -1,0 +1,67 @@
+/* 
+
+CSS Document 
+Author: Kunaal Jain
+© Copyrights Reserved
+
+*/
+
+/*for gallery*/
+
+.gallerycontainer{
+	position: relative;
+	display: block;
+	margin: 0;
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+	background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ 
+	position: absolute;
+	background-color: lightyellow;
+	padding: 5px;
+	left: -1000px;
+	border: 1px dashed gray;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img{ 
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{
+	visibility: visible;
+	top: 0;
+	/* [disabled]z-index: 50; */
+	text-align: center;
+	left: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#container .body .gallerycontainer .left {
+	float: left;
+	margin: auto;
+	margin-left: 5px;
+	/* [disabled]margin-bottom: 5px; */
+}
+#container .body .gallerycontainer .right {
+	float: right;
+	margin: auto;
+	margin-right: 5px;
+}
